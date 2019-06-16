@@ -19,28 +19,28 @@
 
     <!-- Custom styles for this template -->
     <link href="css/business-casual.css" rel="stylesheet">
-       <link href="css/Resume.css" rel="stylesheet">
+    <link href="css/Resume.css" rel="stylesheet">
 
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
   </head>
 
   <body>
 
     <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Annmarie Soller</div>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block" > Marysville, Ohio 43040 | +1 (937) 707-8361| annmariesoller@gmail.com</div>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block" >+1 (937) 707-8361 | annmariesoller@gmail.com</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="index.html">Annmarie Soller</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="Resume.html">Resume</a>
@@ -49,7 +49,9 @@
               <a class="nav-link text-uppercase text-expanded" href="Portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
+              <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact
+              <span class="sr-only">(current)</span>  
+              </a>
             </li>
           </ul>
         </div>
@@ -61,32 +63,31 @@
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
         <h2 class="text-center text-lg text-uppercase my-0">Contact
-          <strong>Annmarie Soller</strong>
+          <strong>Annmarie</strong>
         </h2>
         <hr class="divider">
         <div class="row">
-          <div class="col-lg-8">
-            <div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
-              <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
-            </div>
-          </div>
           <div class="col-lg-4">
-            <h5 class="mb-0">Phone:</h5>
-            <div class="mb-4">+1 (937) 707-8361</div>
-            <h5 class="mb-0">Email:</h5>
-            <div class="mb-4">
-              <a href="mailto:name@example.com">annmariesoller@gmail.com</a>
-            </div>
-            <h5 class="mb-0">Address:</h5>
-            <div class="mb-4">
-              725 Lone Rise Drive East
-              <br>
-              Marysville, OH 43040
-            </div>
+            <img class="img-fluid mb-4 mb-lg-0" src="img/Profile%20Picture.jpg" alt="a portrait picture of a young woman">
+          </div>
+          <div class="col-lg-8">
+            <p>
+              <i class="customIcon fa fa-phone" aria-hidden="true"></i> +1 (937) 707-8361
+            </p>
+            <p>
+              <a href="mailto:name@example.com">
+                <i class="customIcon fa fa-envelope" aria-hidden="true"></i> annmariesoller@gmail.com
+              </a>
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/annmariesoller">
+                <i class="customIcon fa fa-linkedin-square" aria-hidden="true"></i> https://www.linkedin.com/in/annmariesoller
+              </a>
+            </p>
           </div>
         </div>
       </div>
-
+      <!--
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
         <h2 class="text-center text-lg text-uppercase my-0">Contact
@@ -118,10 +119,9 @@
           </div>
         </form>
       </div>
-
+      -->
     </div>
     <!-- /.container -->
-
     <footer class="bg-faded text-center py-5">
       <div class="container">
         <p class="m-0">Copyright &copy; Your Website 2017</p>
@@ -140,7 +140,5 @@
         $(this).find('iframe').removeClass('clicked')
       });
     </script>
-
   </body>
-
 </html>
