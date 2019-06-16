@@ -4,11 +4,22 @@
 3. Creating classes
 */
 
+a{
+    color: #868e96 !important
+}
+.customIcon{
+    color: black;
+}
 #newSectionColor {
     color: darkturquoise;
 }
-
 #profilepicture {
     height: 100px;
 }
-
+#walmartlogo{
+    width: 100%;
+}
+#phonenumber{
+    color: #868e96 !important;
+    text-decoration: none;
+}
